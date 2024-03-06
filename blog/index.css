@@ -38,7 +38,8 @@ footer{
     align-items: center;
     flex-direction: column;
     border-top: 1px solid #c7c7c7;
-    background: #cdcdcd91;
+    background: #bbb9b93d;
+    color: gray;
     div {
         margin-bottom: 10px;
     }

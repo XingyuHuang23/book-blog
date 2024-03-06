@@ -14,7 +14,7 @@ header{
     }
 }
 html{
-    height: -webkit-fill-available;
+    height: auto;
 }
 body {
     padding-left: 18%;
@@ -22,6 +22,10 @@ body {
     overflow: hidden;
     height: 100%;
     overflow-y: scroll;
+    display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 设置body至少和视口高度一样高 */
+  margin: 0;
 }
 .search {
     width: 24px;
@@ -37,4 +41,22 @@ main {
 }
 p{
     line-height: 28px; 
+}
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid #c7c7c7;
+    background: #bbb9b93d;
+    color: gray;
+    div {
+        margin-bottom: 10px;
+    }
+    a {
+        cursor: pointer;
+        color: #4b8df7;
+    }
 }
